@@ -1,0 +1,83 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #e8e8e8;
+  font-size: 12px;
+}
+
+a { color: #aaa; }
+a:hover { color: #10a0d6; }
+
+h1 { 
+  font-weight: normal; 
+  margin: 26px 0; 
+  text-shadow: 1px 1px 1px #fcfcfc; }
+
+header { width: 720px; margin: 0 auto; }
+header h1 { text-align: center; }
+
+footer { 
+  width: 720px; 
+  margin: 0 auto; 
+  padding: 10px 0 50px 0; 
+}
+
+.spending { width: 720px; margin: 0 auto; }
+
+.chart { min-height: 400px; }
+
+.info { 
+  background: #fcfcfc; 
+  padding: 20px; 
+  min-height: 400px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 2px #888;
+  -moz-box-shadow: 2px 2px 2px #888;
+  box-shadow: 2px 2px 2px #888;
+}
+
+.data table { width: 320px; border-collapse: collapse; }
+.data thead th { 
+  border-bottom: 1px solid #ccc; 
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 1px;
+  padding: 0 0 3px 0;
+  color: #666;
+}
+.data tbody td { 
+  border-bottom: 1px dashed #ccc; 
+  color: #333;
+  padding: 5px 0;
+}
+.data tfoot td {
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #ccc;
+  font-size: 16px; 
+  padding: 5px 0;
+}
+
+.stats dl {
+  margin: 0 0 10px 0;
+}
+.stats dt {
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #666;
+  text-transform: uppercase;
+}
+.stats dd {
+  font-size: 18px;
+  color: #666;
+  margin: 0;
+  font-weight: 300;
+}
+.stats dd strong { color: #222; }
+
+.numeric { text-align: right; }
+.text { text-align: left; }
+
+.data { float: left; }
+.stats { float: right; width: 300px; margin-left: 60px; }
