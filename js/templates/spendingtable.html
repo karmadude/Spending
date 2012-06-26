@@ -1,0 +1,22 @@
+<table>
+  <thead>
+    <tr>
+      <th class="text">Category</th>
+      <th class="numeric">Spending</th>
+    </tr>
+  </thead>
+  <tfoot>
+    <tr>
+      <td>Total</td>
+      <td class="numeric">{{total}}</td>
+    </tr>
+  </tfoot>
+  <tbody>
+    {{#spending}}
+    <tr>
+      <td>{{category}}</td>
+      <td class="numeric">{{value}}</td>
+    </tr>
+    {{/spending}}
+  </tbody>
+</table>
